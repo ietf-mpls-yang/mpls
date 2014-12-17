@@ -1,0 +1,23 @@
+module ietf-mpls-types {
+
+    namespace "urn:ietf:params:xml:ns:yang:ietf-mpls-types";
+
+    /* Replace with IANA when assigned */
+    prefix "mpls-types";
+
+    import ietf-inet-types { prefix inet; }
+
+    organization "TBA";
+
+    contact "TBA";
+
+    description
+        "This module contains a collection of generally 
+         useful MPLS specific YANG data type defintions.";
+
+    revision 2014-12-17 {
+        description "Initial revision.";
+    }
+
+    /* Typedefs for MPLS */
+}
